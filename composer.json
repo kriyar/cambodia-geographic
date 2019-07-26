@@ -1,0 +1,14 @@
+{
+    "name": "kriyar/cambodia-geographic",
+    "description": "This package aim to provide a list of Cambodia provinces and its sub-region such as districts, communes, and villages.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kriyar",
+            "email": "kriyar.pro@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
