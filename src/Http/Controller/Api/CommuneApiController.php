@@ -1,10 +1,10 @@
 <?php
 
-namespace Kriyar\CambodiaGeographic\Http\Controllers\Api;
+namespace Kriyar\CambodiaGeographic\Http\Controller\Api;
 
 use App\Http\Controllers\Controller;
 use Kriyar\CambodiaGeographic\Models\CityProvince;
-use Kriyar\CambodiaGeographic\Models\Disctrict;
+use Kriyar\CambodiaGeographic\Models\District;
 use Kriyar\CambodiaGeographic\Models\Commune;
 
 class CommuneApiController extends Controller
@@ -21,7 +21,7 @@ class CommuneApiController extends Controller
 
   public function communeInDistrict($district_id)
   {
-    return response()->json(['data' => Disctrict::find($district_id)->communes]);
+    return response()->json(['data' => District::find($district_id)->communes]);
   }
 
   public function communeInProvince($province_id)
@@ -29,7 +29,7 @@ class CommuneApiController extends Controller
     $districts = CityProvince::find($province_id)->districts;
     $data = [];
     foreach ($districts as $district) {
-      $communes = Disctrict::find($district->id)->communes;
+      $communes = District::find($district->id)->communes;
       foreach ($communes as $commune) {
         $data[] = $commune;
       }

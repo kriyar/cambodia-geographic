@@ -1,6 +1,6 @@
 <?php
 
-namespace Kriyar\CambodiaGeographic\Http\Controllers\Api;
+namespace Kriyar\CambodiaGeographic\Http\Controller\Api;
 
 use App\Http\Controllers\Controller;
 use Kriyar\CambodiaGeographic\Models\CityProvince;
