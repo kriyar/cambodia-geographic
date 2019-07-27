@@ -54,7 +54,7 @@
 
   ```
 
-- Step 6: Run this in your terminal `php artisan migrate --seed`
+- Step 6: Run this in your terminal `composer dump-autoload`, then run `php artisan migrate --seed`
 
 - Step 7: Go to [http://localhost:8000/api/cambodia/provinces](http://localhost:8000/api/cambodia/provinces)
 
