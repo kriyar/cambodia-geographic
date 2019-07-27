@@ -2,6 +2,36 @@
 
 ### A basic RESTful API for getting all the cities/provinces, district/khan, commune/sangkat, village.
 
+### Installation
+
+- Step 1: Run command
+
+composer require kriyar/cambodia-geographic
+
+- Step 2: Run command to publish database and seeder
+
+php artisan vendor:publish --tag=cambodia-geographic-migrations
+
+php artisan vendor:publish --tag=cambodia-geographic-seeds
+
+- Step 3: Add these lines in the `/database/seeds/DatabaseSeeder.php`
+
+```json
+
+    $this->call('CityProvinceTableSeeder');
+    $this->call('DistrictTableSeeder');
+    $this->call('CommuneTableSeeder');
+    $this->call('VillageTableSeeder');
+
+```
+
+- Step 4: Run this in your terminal `composer dump-autoload && php artisan migrate --seed`
+
+- Step 5: Go to [http://localhost:8000/api/cambodia/provinces](http://localhost:8000/api/cambodia/provinces)
+
+- Enjoy!
+
+
 ### Endpoints
 
 - `/api/cambodia/provinces` - List all the cities/provinces
