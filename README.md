@@ -36,9 +36,9 @@
 
 Data of cities/provinces and postal code:
 
-- (https://www.tourismcambodia.com/tourist-information/phnom-penh-postal-code.htm)
+- https://www.tourismcambodia.com/tourist-information/phnom-penh-postal-code.htm
 
-- (http://www.cambodiapostcode.com/provinces.html)
+- http://www.cambodiapostcode.com/provinces.html
 
 ### DISCLAIMER
 
