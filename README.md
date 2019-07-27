@@ -8,13 +8,25 @@
 
 `composer require kriyar/cambodia-geographic`
 
-- Step 2: Run command to publish database and seeder
+- Step 2: Add service provider in `config/app.php` under `providers` array if your Laravel is not automatically discovery service provider
+
+```json
+
+    'providers' => [
+    
+        .......,        
+        Kriyar\CambodiaGeographic\CambodiaGeographicServiceProvider::class        
+    ],
+
+```
+
+- Step 3: Run command to publish database and seeder
 
 `php artisan vendor:publish --tag=cambodia-geographic-migrations`
 
 `php artisan vendor:publish --tag=cambodia-geographic-seeds`
 
-- Step 3: Add these lines in the `/database/seeds/DatabaseSeeder.php`
+- Step 4: Add these lines in the `/database/seeds/DatabaseSeeder.php`
 
 ```json
 
@@ -25,9 +37,9 @@
 
 ```
 
-- Step 4: Run this in your terminal `composer dump-autoload && php artisan migrate --seed`
+- Step 5: Run this in your terminal `composer dump-autoload && php artisan migrate --seed`
 
-- Step 5: Go to [http://localhost:8000/api/cambodia/provinces](http://localhost:8000/api/cambodia/provinces)
+- Step 6: Go to [http://localhost:8000/api/cambodia/provinces](http://localhost:8000/api/cambodia/provinces)
 
 - Enjoy!
 
