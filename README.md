@@ -91,6 +91,10 @@
 
 - `/api/cambodia/provinces/{province_id}/villages` - List all the villages of the province
 
+### Future
+
+- Soon, will add interface for CRUD operation to make it easy for managing data of city/province, district, commune, village.
+
 ### Credits:
 
 Data of cities/provinces and postal code:
