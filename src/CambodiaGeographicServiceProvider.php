@@ -13,7 +13,7 @@ class CambodiaGeographicServiceProvider extends ServiceProvider
   */
   public function register()
   {
-
+      $this->loadRoutesFrom(__DIR__.'/routes/api.php');
   }
 
   /**
@@ -25,6 +25,5 @@ class CambodiaGeographicServiceProvider extends ServiceProvider
   {
     $this->publishes([__DIR__.'/database/migrations' => database_path('migrations')], 'cambodia-geographic-migrations');
     $this->publishes([__DIR__.'/database/seeds' => database_path('seeds')], 'cambodia-geographic-seeds');
-    $this->loadRoutesFrom(__DIR__.'/routes/api.php');
   }
 }
