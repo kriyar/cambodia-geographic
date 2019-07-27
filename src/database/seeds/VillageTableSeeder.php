@@ -16,22 +16,22 @@ class VillageTableSeeder extends Seeder
       DB::table('villages')->truncate();
 
       $villages = [
-        ['commnune_id' => 1, 'name' => 'Phum 1'],
-        ['commnune_id' => 1, 'name' => 'Phum 2'],
-        ['commnune_id' => 1, 'name' => 'Phum 3'],
-        ['commnune_id' => 1, 'name' => 'Phum 4'],
-        ['commnune_id' => 1, 'name' => 'Phum 5'],
-        ['commnune_id' => 1, 'name' => 'Phum 6'],
-        ['commnune_id' => 1, 'name' => 'Phum 7'],
-        ['commnune_id' => 1, 'name' => 'Phum 8'],
-        ['commnune_id' => 1, 'name' => 'Phum 9'],
-        ['commnune_id' => 1, 'name' => 'Phum 10'],
-        ['commnune_id' => 1, 'name' => 'Phum 11'],
-        ['commnune_id' => 1, 'name' => 'Phum 12'],
-        ['commnune_id' => 1, 'name' => 'Phum 13'],
-        ['commnune_id' => 1, 'name' => 'Phum 14'],
-        ['commnune_id' => 1, 'name' => 'Phum 15'],
-        ['commnune_id' => 1, 'name' => 'Phum 16']
+        ['commnune_id' => 1, 'name' => 'Phum 1', 'code' => null],
+        ['commnune_id' => 1, 'name' => 'Phum 2', 'code' => null],
+        ['commnune_id' => 1, 'name' => 'Phum 3', 'code' => null],
+        ['commnune_id' => 1, 'name' => 'Phum 4', 'code' => null],
+        ['commnune_id' => 1, 'name' => 'Phum 5', 'code' => null],
+        ['commnune_id' => 1, 'name' => 'Phum 6', 'code' => null],
+        ['commnune_id' => 1, 'name' => 'Phum 7', 'code' => null],
+        ['commnune_id' => 1, 'name' => 'Phum 8', 'code' => null],
+        ['commnune_id' => 1, 'name' => 'Phum 9', 'code' => null],
+        ['commnune_id' => 1, 'name' => 'Phum 10', 'code' => null],
+        ['commnune_id' => 1, 'name' => 'Phum 11', 'code' => null],
+        ['commnune_id' => 1, 'name' => 'Phum 12', 'code' => null],
+        ['commnune_id' => 1, 'name' => 'Phum 13', 'code' => null],
+        ['commnune_id' => 1, 'name' => 'Phum 14', 'code' => null],
+        ['commnune_id' => 1, 'name' => 'Phum 15', 'code' => null],
+        ['commnune_id' => 1, 'name' => 'Phum 16', 'code' => null]
       ];
 
       DB::table('villages')->insert($villages);

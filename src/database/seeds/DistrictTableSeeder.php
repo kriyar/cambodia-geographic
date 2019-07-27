@@ -23,12 +23,12 @@ class DistrictTableSeeder extends Seeder
         ['province_id' => 1, 'name' => 'Dang Kor', 'code' => '12400'],
         ['province_id' => 1, 'name' => 'Mean Chey', 'code' => '12350'],
         ['province_id' => 1, 'name' => 'Russey Keo', 'code' => '12100'],
-        ['province_id' => 1, 'name' => 'Sen Sok'],
-        ['province_id' => 1, 'name' => 'Por Senchey'],
-        ['province_id' => 1, 'name' => 'Chroy Chongvar'],
-        ['province_id' => 1, 'name' => 'Prek Pnov'],
-        ['province_id' => 1, 'name' => 'Chbar Ampov'],
-        ['province_id' => 1, 'name' => 'Boeng Keng Kang']
+        ['province_id' => 1, 'name' => 'Sen Sok', 'code' => null],
+        ['province_id' => 1, 'name' => 'Por Senchey', 'code' => null],
+        ['province_id' => 1, 'name' => 'Chroy Chongvar', 'code' => null],
+        ['province_id' => 1, 'name' => 'Prek Pnov', 'code' => null],
+        ['province_id' => 1, 'name' => 'Chbar Ampov', 'code' => null],
+        ['province_id' => 1, 'name' => 'Boeng Keng Kang', 'code' => null]
       ];
 
       DB::table('districts')->insert($districts);
