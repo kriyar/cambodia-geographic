@@ -1,7 +1,7 @@
-[![Total Downloads](https://poser.pugx.org/jsdecena/mcpro/downloads)](https://packagist.org/packages/jsdecena/mcpro)
-[![Latest Stable Version](https://poser.pugx.org/jsdecena/mcpro/v/stable)](https://packagist.org/packages/jsdecena/mcpro)
-[![License](https://poser.pugx.org/jsdecena/mcpro/license)](https://packagist.org/packages/jsdecena/mcpro)
-[![Monthly Downloads](https://poser.pugx.org/jsdecena/mcpro/d/monthly)](https://packagist.org/packages/jsdecena/mcpro)
+[![Total Downloads](https://poser.pugx.org/kriyar/cambodia-geographic/downloads)](https://packagist.org/packages/kriyar/cambodia-geographic)
+[![Latest Stable Version](https://poser.pugx.org/kriyar/cambodia-geographic/v/stable)](https://packagist.org/packages/kriyar/cambodia-geographic)
+[![License](https://poser.pugx.org/kriyar/cambodia-geographic/license)](https://packagist.org/packages/kriyar/cambodia-geographic)
+[![Monthly Downloads](https://poser.pugx.org/kriyar/cambodia-geographic/d/monthly)](https://packagist.org/packages/kriyar/cambodia-geographic)
 
 ## This package aim to provide a list of Cambodia provinces and its sub-region such as districts, communes, and villages.
 
