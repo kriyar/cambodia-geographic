@@ -20,10 +20,10 @@ class CambodiaGeographicServiceProvider extends ServiceProvider
   */
   public function register()
   {
-    $this->app->make('Kriyar\CambodiaGeographic\Http\Api\CityProvinceApiController');
-    $this->app->make('Kriyar\CambodiaGeographic\Http\Api\DistrictApiController');
-    $this->app->make('Kriyar\CambodiaGeographic\Http\Api\CommuneApiController');
-    $this->app->make('Kriyar\CambodiaGeographic\Http\Api\VillageApiController');
+    $this->app->make('Kriyar\CambodiaGeographic\CityProvinceApiController');
+    $this->app->make('Kriyar\CambodiaGeographic\DistrictApiController');
+    $this->app->make('Kriyar\CambodiaGeographic\CommuneApiController');
+    $this->app->make('Kriyar\CambodiaGeographic\VillageApiController');
   }
 
   /**
