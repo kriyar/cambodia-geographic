@@ -8,7 +8,7 @@
 
   `composer require kriyar/cambodia-geographic`
 
-- Step 2: Add `"Kriyar\\CambodiaGeographic\\": "vendor/kriyar/cambodia-geographic/src/"` to `composer.json` under `autoload` inside Laravel root directory
+- Step 2: Add `"Kriyar\\CambodiaGeographic\\": "vendor/kriyar/cambodia-geographic/src/"` to `composer.json` under `autoload` inside Laravel root directory, then run command `composer dump-autoload`
 
   ```json
 
