@@ -7,20 +7,13 @@ use Illuminate\Support\ServiceProvider;
 class CambodiaGeographicServiceProvider extends ServiceProvider
 {
   /**
-     * Indicates if loading of the provider is deferred.
-     *
-     * @var bool
-     */
-    protected $defer = false;
-    
-  /**
   * Register services.
   *
   * @return void
   */
   public function register()
   {
-    $this->loadRoutesFrom(__DIR__.'/routes/api.php');
+
   }
 
   /**
@@ -32,5 +25,6 @@ class CambodiaGeographicServiceProvider extends ServiceProvider
   {
     $this->publishes([__DIR__.'/database/migrations' => database_path('migrations')], 'cambodia-geographic-migrations');
     $this->publishes([__DIR__.'/database/seeds' => database_path('seeds')], 'cambodia-geographic-seeds');
+    $this->loadRoutesFrom(__DIR__.'/routes/api.php');
   }
 }
