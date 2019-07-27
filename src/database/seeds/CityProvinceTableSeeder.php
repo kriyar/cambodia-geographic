@@ -16,7 +16,7 @@ class CityProvinceTableSeeder extends Seeder
       DB::table('city_provinces')->truncate();
 
       $city_provinces = [
-        ['name' => 'Phnom Penh'],
+        ['name' => 'Phnom Penh', 'code' => '12000'],
         ['name' => 'Banteay Meanchey'],
         ['name' => 'Battambang'],
         ['name' => 'Kampong Cham'],

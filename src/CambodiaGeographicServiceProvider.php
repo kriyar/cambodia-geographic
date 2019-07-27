@@ -26,7 +26,7 @@ class CambodiaGeographicServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-      $this->loadRoutesFrom(__DIR__.'/routes.php');
+      $this->loadRoutesFrom(__DIR__.'/routes/api.php');
       $this->publishes([__DIR__.'/database/migrations' => database_path('migrations')], 'migrations');
       $this->publishes([__DIR__.'/database/seeds' => database_path('seeds')], 'seed');
     }

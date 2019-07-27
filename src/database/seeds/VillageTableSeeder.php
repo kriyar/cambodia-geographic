@@ -16,31 +16,22 @@ class VillageTableSeeder extends Seeder
       DB::table('villages')->truncate();
 
       $villages = [
-        ['commnune_id' => 1, 'name' => 'Phnom Penh'],
-        ['commnune_id' => 1, 'name' => 'Banteay Meanchey'],
-        ['commnune_id' => 1, 'name' => 'Battambang'],
-        ['commnune_id' => 1, 'name' => 'Kampong Cham'],
-        ['commnune_id' => 1, 'name' => 'Kampong Chhnang'],
-        ['commnune_id' => 1, 'name' => 'Kampong Speu'],
-        ['commnune_id' => 1, 'name' => 'Kampong Thom'],
-        ['commnune_id' => 1, 'name' => 'Kampot'],
-        ['commnune_id' => 1, 'name' => 'Kandal'],
-        ['commnune_id' => 1, 'name' => 'Koh Kong'],
-        ['commnune_id' => 1, 'name' => 'Kep'],
-        ['commnune_id' => 1, 'name' => 'Kratie'],
-        ['commnune_id' => 1, 'name' => 'Mondulkiri'],
-        ['commnune_id' => 1, 'name' => 'Oddar Meanchey'],
-        ['commnune_id' => 1, 'name' => 'Pailin'],
-        ['commnune_id' => 1, 'name' => 'Preah Sihanoukville'],
-        ['commnune_id' => 1, 'name' => 'Preah Vihear'],
-        ['commnune_id' => 1, 'name' => 'Pursat'],
-        ['commnune_id' => 1, 'name' => 'Prey Veng'],
-        ['commnune_id' => 1, 'name' => 'Ratanakiri'],
-        ['commnune_id' => 1, 'name' => 'Siem Reap'],
-        ['commnune_id' => 1, 'name' => 'Stung Treng'],
-        ['commnune_id' => 1, 'name' => 'Svay Rieng'],
-        ['commnune_id' => 1, 'name' => 'Takeo'],
-        ['commnune_id' => 1, 'name' => 'Tbong Khmum']
+        ['commnune_id' => 1, 'name' => 'Phum 1'],
+        ['commnune_id' => 1, 'name' => 'Phum 2'],
+        ['commnune_id' => 1, 'name' => 'Phum 3'],
+        ['commnune_id' => 1, 'name' => 'Phum 4'],
+        ['commnune_id' => 1, 'name' => 'Phum 5'],
+        ['commnune_id' => 1, 'name' => 'Phum 6'],
+        ['commnune_id' => 1, 'name' => 'Phum 7'],
+        ['commnune_id' => 1, 'name' => 'Phum 8'],
+        ['commnune_id' => 1, 'name' => 'Phum 9'],
+        ['commnune_id' => 1, 'name' => 'Phum 10'],
+        ['commnune_id' => 1, 'name' => 'Phum 11'],
+        ['commnune_id' => 1, 'name' => 'Phum 12'],
+        ['commnune_id' => 1, 'name' => 'Phum 13'],
+        ['commnune_id' => 1, 'name' => 'Phum 14'],
+        ['commnune_id' => 1, 'name' => 'Phum 15'],
+        ['commnune_id' => 1, 'name' => 'Phum 16']
       ];
 
       DB::table('villages')->insert($villages);

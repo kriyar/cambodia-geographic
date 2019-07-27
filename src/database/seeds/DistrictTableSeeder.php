@@ -16,31 +16,19 @@ class DistrictTableSeeder extends Seeder
       DB::table('districts')->truncate();
 
       $districts = [
-        ['province_id' => 1, 'name' => 'Phnom Penh'],
-        ['province_id' => 1, 'name' => 'Banteay Meanchey'],
-        ['province_id' => 1, 'name' => 'Battambang'],
-        ['province_id' => 1, 'name' => 'Kampong Cham'],
-        ['province_id' => 1, 'name' => 'Kampong Chhnang'],
-        ['province_id' => 1, 'name' => 'Kampong Speu'],
-        ['province_id' => 1, 'name' => 'Kampong Thom'],
-        ['province_id' => 1, 'name' => 'Kampot'],
-        ['province_id' => 1, 'name' => 'Kandal'],
-        ['province_id' => 1, 'name' => 'Koh Kong'],
-        ['province_id' => 1, 'name' => 'Kep'],
-        ['province_id' => 1, 'name' => 'Kratie'],
-        ['province_id' => 1, 'name' => 'Mondulkiri'],
-        ['province_id' => 1, 'name' => 'Oddar Meanchey'],
-        ['province_id' => 1, 'name' => 'Pailin'],
-        ['province_id' => 1, 'name' => 'Preah Sihanoukville'],
-        ['province_id' => 1, 'name' => 'Preah Vihear'],
-        ['province_id' => 1, 'name' => 'Pursat'],
-        ['province_id' => 1, 'name' => 'Prey Veng'],
-        ['province_id' => 1, 'name' => 'Ratanakiri'],
-        ['province_id' => 1, 'name' => 'Siem Reap'],
-        ['province_id' => 1, 'name' => 'Stung Treng'],
-        ['province_id' => 1, 'name' => 'Svay Rieng'],
-        ['province_id' => 1, 'name' => 'Takeo'],
-        ['province_id' => 1, 'name' => 'Tbong Khmum']
+        ['province_id' => 1, 'name' => 'Chamkar Mon', 'code' => '12300'],
+        ['province_id' => 1, 'name' => 'Doun Penh', 'code' => '12200'],
+        ['province_id' => 1, 'name' => 'Prampir Meakkakra', 'code' => '12250'],
+        ['province_id' => 1, 'name' => 'Toul Kok', 'code' => '12150'],
+        ['province_id' => 1, 'name' => 'Dang Kor', 'code' => '12400'],
+        ['province_id' => 1, 'name' => 'Mean Chey', 'code' => '12350'],
+        ['province_id' => 1, 'name' => 'Russey Keo', 'code' => '12100'],
+        ['province_id' => 1, 'name' => 'Sen Sok'],
+        ['province_id' => 1, 'name' => 'Por Senchey'],
+        ['province_id' => 1, 'name' => 'Chroy Chongvar'],
+        ['province_id' => 1, 'name' => 'Prek Pnov'],
+        ['province_id' => 1, 'name' => 'Chbar Ampov'],
+        ['province_id' => 1, 'name' => 'Boeng Keng Kang']
       ];
 
       DB::table('districts')->insert($districts);
