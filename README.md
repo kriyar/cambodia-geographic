@@ -15,7 +15,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "Kriyar\\CambodiaGeographic\\": "packages/kriyar/cambodia-geographic/src/"
+            "Kriyar\\CambodiaGeographic\\": "vendor/kriyar/cambodia-geographic/src/"
         },
         "classmap": [
             "database/seeds",
