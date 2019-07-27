@@ -6,13 +6,13 @@
 
 - Step 1: Run command
 
-composer require kriyar/cambodia-geographic
+`composer require kriyar/cambodia-geographic`
 
 - Step 2: Run command to publish database and seeder
 
-php artisan vendor:publish --tag=cambodia-geographic-migrations
+`php artisan vendor:publish --tag=cambodia-geographic-migrations`
 
-php artisan vendor:publish --tag=cambodia-geographic-seeds
+`php artisan vendor:publish --tag=cambodia-geographic-seeds`
 
 - Step 3: Add these lines in the `/database/seeds/DatabaseSeeder.php`
 
@@ -69,6 +69,8 @@ Data of cities/provinces and postal code:
 - https://www.tourismcambodia.com/tourist-information/phnom-penh-postal-code.htm
 
 - http://www.cambodiapostcode.com/provinces.html
+
+- https://github.com/skanel/cambodia-province-district-commune-village
 
 ### DISCLAIMER
 
