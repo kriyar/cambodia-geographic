@@ -7,6 +7,13 @@ use Illuminate\Support\ServiceProvider;
 class CambodiaGeographicServiceProvider extends ServiceProvider
 {
   /**
+     * Indicates if loading of the provider is deferred.
+     *
+     * @var bool
+     */
+    protected $defer = false;
+    
+  /**
   * Register services.
   *
   * @return void
