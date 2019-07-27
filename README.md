@@ -25,7 +25,7 @@
 
   ```
         
-- Step 3: Add service provider in `config/app.php` under `providers` array if your Laravel is not automatically discovery service provider
+- Step 3: Add service provider in `config/app.php` under `providers` array
 
   ```json
 
