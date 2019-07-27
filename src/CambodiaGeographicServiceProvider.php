@@ -13,7 +13,10 @@ class CambodiaGeographicServiceProvider extends ServiceProvider
   */
   public function register()
   {
-      $this->loadRoutesFrom(__DIR__.'/routes/api.php');
+      $this->app->make('Kriyar\CambodiaGeographic\Http\Controller\Api\CityProvinceApiController');
+      $this->app->make('Kriyar\CambodiaGeographic\Http\Controller\Api\DistrictApiController');
+      $this->app->make('Kriyar\CambodiaGeographic\Http\Controller\Api\CommuneApiController');
+      $this->app->make('Kriyar\CambodiaGeographic\Http\Controller\Api\VillageApiController');
   }
 
   /**
@@ -25,5 +28,6 @@ class CambodiaGeographicServiceProvider extends ServiceProvider
   {
     $this->publishes([__DIR__.'/database/migrations' => database_path('migrations')], 'cambodia-geographic-migrations');
     $this->publishes([__DIR__.'/database/seeds' => database_path('seeds')], 'cambodia-geographic-seeds');
+    $this->loadRoutesFrom(__DIR__.'/routes/api.php');
   }
 }
