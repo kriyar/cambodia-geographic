@@ -35,6 +35,6 @@ class CambodiaGeographicServiceProvider extends ServiceProvider
   {
     $this->loadRoutesFrom(__DIR__.'/routes/api.php');
     $this->publishes([__DIR__.'/database/migrations' => database_path('migrations')], 'cambodia-geographic-migrations');
-    $this->publishes([__DIR__.'/database/seeds' => database_path('seeds')], 'cambodia-geographic-seed');
+    $this->publishes([__DIR__.'/database/seeds' => database_path('seeds')], 'cambodia-geographic-seeds');
   }
 }
