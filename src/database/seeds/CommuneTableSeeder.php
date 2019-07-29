@@ -64,7 +64,31 @@ class CommuneTableSeeder extends Seeder
       ['district_id' => 5, 'name' => 'Prey Sar', 'code' => '12410', 'created_at' => $created_at, 'updated_at' => $created_at],
       ['district_id' => 5, 'name' => 'Kraing Pongro', 'code' => '12412', 'created_at' => $created_at, 'updated_at' => $created_at],
       ['district_id' => 5, 'name' => 'Pratas Lang', 'code' => '12413', 'created_at' => $created_at, 'updated_at' => $created_at],
-      ['district_id' => 5, 'name' => 'Sac Sampeou', 'code' => '12414', 'created_at' => $created_at, 'updated_at' => $created_at]
+      ['district_id' => 5, 'name' => 'Sac Sampeou', 'code' => '12414', 'created_at' => $created_at, 'updated_at' => $created_at],
+      ['district_id' => 6, 'name' => 'Boeng Tumpun', 'code' => '12351', 'created_at' => $created_at, 'updated_at' => $created_at],
+      ['district_id' => 6, 'name' => 'Stoeung Meanchey', 'code' => '12352', 'created_at' => $created_at, 'updated_at' => $created_at],
+      ['district_id' => 6, 'name' => 'Chak Angre Krom', 'code' => '12353', 'created_at' => $created_at, 'updated_at' => $created_at],
+      ['district_id' => 6, 'name' => 'Chak Angre Leu', 'code' => '12354', 'created_at' => $created_at, 'updated_at' => $created_at],
+      ['district_id' => 7, 'name' => 'Russei Keo', 'code' => '12104', 'created_at' => $created_at, 'updated_at' => $created_at],
+      ['district_id' => 7, 'name' => 'Toul Sang Kae', 'code' => '12105', 'created_at' => $created_at, 'updated_at' => $created_at],
+      ['district_id' => 7, 'name' => 'Kilometer 6', 'code' => '12106', 'created_at' => $created_at, 'updated_at' => $created_at],
+      ['district_id' => 7, 'name' => 'Chrang Chamres 1', 'code' => '12107', 'created_at' => $created_at, 'updated_at' => $created_at],
+      ['district_id' => 7, 'name' => 'Chrang Chamres 2', 'code' => '12108', 'created_at' => $created_at, 'updated_at' => $created_at],
+      ['district_id' => 7, 'name' => 'Svay Pak', 'code' => '12109', 'created_at' => $created_at, 'updated_at' => $created_at],
+      ['district_id' => 8, 'name' => 'Phnom Penh Thmei', 'code' => '12101', 'created_at' => $created_at, 'updated_at' => $created_at],
+      ['district_id' => 8, 'name' => 'Teuk Thlar', 'code' => '12102', 'created_at' => $created_at, 'updated_at' => $created_at],
+      ['district_id' => 8, 'name' => 'Khmounh', 'code' => '12103', 'created_at' => $created_at, 'updated_at' => $created_at],
+      ['district_id' => 8, 'name' => 'Kraing Thnoung', 'code' => '12411', 'created_at' => $created_at, 'updated_at' => $created_at],
+      ['district_id' => 9, 'name' => 'Chom Chao', 'code' => '12405', 'created_at' => $created_at, 'updated_at' => $created_at],
+      ['district_id' => 9, 'name' => 'Kakap', 'code' => '12406', 'created_at' => $created_at, 'updated_at' => $created_at],
+      ['district_id' => 9, 'name' => 'Trapeang Krasaing', 'code' => '12402', 'created_at' => $created_at, 'updated_at' => $created_at],
+      ['district_id' => 9, 'name' => 'Phleung Chheh Roteh', 'code' => '12404', 'created_at' => $created_at, 'updated_at' => $created_at],
+      ['district_id' => 9, 'name' => 'Samraong Kraom', 'code' => '12409', 'created_at' => $created_at, 'updated_at' => $created_at],
+      ['district_id' => 9, 'name' => 'Boeng Thom', 'code' => '8302', 'created_at' => $created_at, 'updated_at' => $created_at],
+      ['district_id' => 9, 'name' => 'Kamboul', 'code' => '8305', 'created_at' => $created_at, 'updated_at' => $created_at],
+      ['district_id' => 9, 'name' => 'Kantaok', 'code' => '8306', 'created_at' => $created_at, 'updated_at' => $created_at],
+      ['district_id' => 9, 'name' => 'Ovlaok', 'code' => '8310', 'created_at' => $created_at, 'updated_at' => $created_at],
+      ['district_id' => 9, 'name' => 'Snaor', 'code' => '8313', 'created_at' => $created_at, 'updated_at' => $created_at]
     ];
 
     DB::table('communes')->insert($communes);

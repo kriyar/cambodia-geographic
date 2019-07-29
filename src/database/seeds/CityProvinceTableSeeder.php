@@ -18,7 +18,7 @@ class CityProvinceTableSeeder extends Seeder
 
       $created_at = Carbon::now();
       $city_provinces = [
-        ['name' => 'Phnom Penh', 'code' => '12000', 'created_at' => $created_at, 'updated_at' => $created_at],
+        ['name' => 'Phnom Penh', 'code' => null, 'created_at' => $created_at, 'updated_at' => $created_at],
         ['name' => 'Banteay Meanchey', 'code' => null, 'created_at' => $created_at, 'updated_at' => $created_at],
         ['name' => 'Battambang', 'code' => null, 'created_at' => $created_at, 'updated_at' => $created_at],
         ['name' => 'Kampong Cham', 'code' => null, 'created_at' => $created_at, 'updated_at' => $created_at],
