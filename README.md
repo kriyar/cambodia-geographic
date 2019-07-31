@@ -6,7 +6,7 @@
 
 ### A basic RESTful API for getting all the cities/provinces, district/khan, commune/sangkat, village.
 
-### Installation
+## Installation
 
 - Step 1: Run command
 
@@ -65,7 +65,7 @@
 - Enjoy!
 
 
-### Endpoints
+## Endpoints
 
 - `/api/cambodia/provinces` - List all the cities/provinces
 
@@ -95,11 +95,11 @@
 
 - `/api/cambodia/provinces/{province_id}/villages` - List all the villages of the province
 
-### Future
+## Future
 
 - Soon, will add interface for CRUD operation to make it easy for managing data of city/province, district, commune, village.
 
-### Credits:
+## Credits:
 
 Data of cities/provinces and postal code:
 
@@ -113,7 +113,7 @@ Data of cities/provinces and postal code:
 
 This package is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
-### DISCLAIMER
+## DISCLAIMER
 
 > The data is offered FOR FREE and anybody can use at their own risk. 
 > The data is offered AS IS. While I will strive to keep this data up to date, I do not claim that this is a comprehensive listing and some data may be outdated or missing. 
