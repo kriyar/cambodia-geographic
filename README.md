@@ -109,6 +109,10 @@ Data of cities/provinces and postal code:
 
 - https://github.com/skanel/cambodia-province-district-commune-village
 
+## License
+
+This package is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+
 ### DISCLAIMER
 
 > The data is offered FOR FREE and anybody can use at their own risk. 
